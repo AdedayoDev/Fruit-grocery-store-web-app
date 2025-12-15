@@ -28,10 +28,12 @@ const AppBanner = () => {
           style={bannerStyle}
           className="sm:min-h-100 sm:flex sm:justify-end sm:items-center rounded-xl"
         >
-
-          <div >
+          <div>
             <div className="space-y-6 max-w-xl mx-auto">
-              <h1 className="tex-2xl text-center sm:text-4xl font-semibold">
+              <h1
+                data-aos="fade-up"
+                className="tex-2xl text-center sm:text-4xl font-semibold"
+              >
                 Download the app
               </h1>
 
@@ -46,12 +48,24 @@ const AppBanner = () => {
               </p>
 
               {/* Image link */}
-              <div className="flex justify-center items-center gap-4">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="500"
+                className="flex justify-center items-center gap-4"
+              >
                 <a href="#">
-                    <img src={PlaystoreImg} alt=""  className="max-w-37 sm:max-w-30 md:max-w-50"/>
+                  <img
+                    src={PlaystoreImg}
+                    alt=""
+                    className="max-w-37 sm:max-w-30 md:max-w-50"
+                  />
                 </a>
                 <a href="#">
-                    <img src={AppStoreImg} alt="" className="max-w-37 sm:max-w-30 md:max-w-50" />
+                  <img
+                    src={AppStoreImg}
+                    alt=""
+                    className="max-w-37 sm:max-w-30 md:max-w-50"
+                  />
                 </a>
               </div>
             </div>

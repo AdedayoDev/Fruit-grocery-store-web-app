@@ -48,7 +48,11 @@ const Services = () => {
         <h1 className="text-3xl font-bold text-dark">
           Fresh and Tasty <span className="text-primary">Fruits</span>
         </h1>
-        <p className="text-sm opacity-50">
+        <p
+          data-aos="fade-up"
+          data-aos-delay="300"
+          className="text-sm opacity-50"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus
           dignissimos, odit tempore saepe odio esse dolorem laboriosam adipisci
           possimus.

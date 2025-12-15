@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navabar = ({ sidebar, setSidebar }) => {
   return (
-    <section className="w-full absolute top-0 left-0 py-2 text-white z-20">
+    <section data-aos="fade" className="w-full absolute top-0 left-0 py-2 text-white z-20">
       <div className="w-10/12 mx-auto">
         <div className="flex justify-between items-center">
             
